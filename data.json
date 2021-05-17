@@ -1,0 +1,7 @@
+{"brother": "", "sister": "", "dady": "", "name": " sarah",
+    "note":{
+        "one": "Above you can add some contacts as you wish, but don't forget that they should be their emailID's(strictly), in the key-value format as shown in the above examples.",
+        "two": "Do not remove the 'name' key value pair in json above, it will crash the program."
+    }
+
+}
