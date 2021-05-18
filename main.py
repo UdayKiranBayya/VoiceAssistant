@@ -122,5 +122,5 @@ while True:
             speak(pyjokes.get_joke())
 
     elif "who are you" in order:
-        speak("Myself, Sia. Simple and Intelligent Assistant.")
+        speak("I'm a Simple and Intelligent Voice Assistant.")
 
