@@ -7,6 +7,8 @@
 
 *This Version is strictly made for Linux distributions. And perfectly tested on ubuntu 20.04LTS.
 
+*Run "pip install -r requirements.txt" (Python 2), or "pip3 install -r requirements.txt" (Python 3). For any help click 👉️ https://pip.pypa.io/en/stable/
+
 *Please, kindly ignore the audio.mp3 file, it's there because I used the gTTs services for my assistant speaking. And it's to be there. To know more about the gTTS click 👉️ https://gtts.readthedocs.io/en/latest/
 
 
@@ -61,4 +63,7 @@ for example, speak: "Where is Warangal?"
 *speak: "when you were made?"
 
 
-***************************************** Your Lovingly:Uday***********
+                                                   Your Lovingly,
+                                                   Uday
+
+Please do report any bugs, pull request are always invited.
