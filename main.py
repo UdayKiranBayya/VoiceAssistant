@@ -98,3 +98,29 @@ while True:
     elif 'fine' in order or "good" in order:
         speak("It's good to know that your fine sir.")
 
+    elif "change your name to" in order:
+        query = order.replace("change your name to", "")
+        with open("data.json", "r") as File:
+            data = json.load(File)
+            data["name"] = query
+
+        with open("data.json", "w") as File:
+            json.dump(data, File)
+        speak("Thanks for naming me sir.")
+
+    elif 'your name' in order:
+        with open("data.json", "r") as File:
+            data = json.load(File)
+            assistant = data["name"]
+        speak(assistant)
+
+    elif "exit" in order or "terminate" in order or "bye" in order or "shut up" in order:
+        speak('Bye, sir. Have a good day!')
+        break
+
+    elif 'joke' in order:
+            speak(pyjokes.get_joke())
+
+    elif "who are you" in order:
+        speak("Myself, Sia. Simple and Intelligent Assistant.")
+
