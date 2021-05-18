@@ -124,3 +124,35 @@ while True:
     elif "who are you" in order:
         speak("I'm a Simple and Intelligent Voice Assistant.")
 
+    elif "last command" in order or "last order" in order:
+        playsound('audio.mp3')
+
+    elif "i love you" in order or "will you be my wife" in order or "will you be my girl friend" in order or "will you be my soulmate" in order:
+        speak("I'm virtual, you can't feel my vagina.")
+
+    elif "my birthday" in order or "was born" in order :
+        speak("Do you think you're that famous, how the hell I know your birthday!")
+
+    elif "do you know me" in order:
+         speak("Do you think you're that famous, how the hell I know you")
+         
+    elif "who i am" in order:
+        speak("If you can operate me, surely you're a human!")
+
+    elif 'where is' in order:
+        query = order.replace("where is", "")
+        speak(query)
+        webbrowser.open('https://www.google.com/maps/place/%s/' % query)
+
+    elif 'where iam' in order or "my location" in order:
+        speak("Opening Map.")
+        webbrowser.open("https://www.google.com/maps/")
+
+    elif "who invented you" in order or "made you" in order:
+        speak("I was made by my master Uday Kiran. And I was initialized on Sunday May 16th at 12:00 AM")    
+
+    elif "when you were made" in order or "when you are made" in order:
+        speak("I was initialized on Sunday May 16th at 12:00 AM")
+
+
+
